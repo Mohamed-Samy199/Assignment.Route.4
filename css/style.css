@@ -1,0 +1,76 @@
+*{
+    padding: 0;margin: 0;
+    border: none;outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+    text-align: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.section .main h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 30px;
+    padding-top: 20px;
+}
+.section .main h3{
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+
+}
+.section .main h4{
+    font-size: 22px;
+}
+.section .main button{
+    padding: 20px 35px;
+    cursor: pointer;
+    color: #fff;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 56, 56 ,.9);
+    font-weight: bolder;
+    border: 2px solid #ff3838;
+}
+.section .main button:hover{
+    background-color: rgb(255, 255, 255 , .7);
+    color: #222;
+    border: 2px solid #ff3838;
+}
+#frist, #second{
+    color: #2a1919;
+    font-size: 30px;
+}
+.section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: -10;
+}
+@media (max-width : 486px) {
+    .section .main h1{
+        font-size: 35px;
+    
+    margin: 5px;
+    padding-top: 5px;
+    }
+    .lord{
+        display: none;
+    }
+    .section .main h3 {
+        font-size: 25px;
+        margin: 10px;
+    }
+}
